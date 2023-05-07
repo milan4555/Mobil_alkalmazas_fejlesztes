@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/szoveg"
+        android:background="@color/lgray"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/t1"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/t2"
+            android:text="set"
+            android:textSize="18dp"
+            android:layout_below="@+id/t1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/t3"
+            android:text="rep"
+            android:textSize="18dp"
+            android:layout_below="@+id/t2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/t4"
+            android:text="suly"
+            android:textSize="18dp"
+            android:layout_below="@+id/t3"
+            />
+    </RelativeLayout>
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/szoveg"-->
+<!--            android:text="Módosítás"-->
+<!--            android:backgroundTint="@color/orange"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:onClick="onModositas"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/szoveg"-->
+<!--            android:text="Törlés"-->
+<!--            android:backgroundTint="@color/red"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginRight="40dp"-->
+<!--            android:onClick="onTorles"/>-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

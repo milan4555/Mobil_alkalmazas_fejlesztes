@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802440364951",
+    "project_id": "stronger-67acf",
+    "storage_bucket": "stronger-67acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802440364951:android:af6c3904cab84705a9fad2",
+        "android_client_info": {
+          "package_name": "com.example.stronger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802440364951-7dfohm0q4nnuhcpa0sqa6cadlumopjmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADRJJ8B7w5E6D5_mS4oRwvgxMtXqtcj-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802440364951-7dfohm0q4nnuhcpa0sqa6cadlumopjmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
